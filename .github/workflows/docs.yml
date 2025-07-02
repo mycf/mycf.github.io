@@ -19,6 +19,10 @@ jobs:
 
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
+        with:
+          version: 8.6.5  # 指定你需要的pnpm版本
+
+
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4

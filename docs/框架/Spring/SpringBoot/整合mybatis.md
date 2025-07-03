@@ -1,0 +1,1 @@
+https://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/zh/index.html

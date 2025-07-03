@@ -1,0 +1,23 @@
+{
+  "unversionedId": "git",
+  "id": "git",
+  "title": "git",
+  "description": "git自定义配置",
+  "source": "@site/docs/git.md",
+  "sourceDirName": ".",
+  "slug": "/git",
+  "permalink": "/docs/git",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "brew",
+    "permalink": "/docs/brew"
+  },
+  "next": {
+    "title": "fff",
+    "permalink": "/docs/"
+  }
+}

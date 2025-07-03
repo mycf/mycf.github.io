@@ -1,0 +1,40 @@
+{
+  "unversionedId": "doc-with-tags",
+  "id": "doc-with-tags",
+  "title": "ORM简介",
+  "description": "JDBC是Java与数据库交互的统一API，实际上它分为两组API，一组是面向Java应用程序开发人员的API，另一组是面向数据库驱动程序开发人员的API。前者是一个标准的Java API且独立于各个厂家的数据库实现，后者则是数据库驱动程序开发人员用于编写数据库驱动，是前者的底层支持，一般与具体的数据库产品相关。",
+  "source": "@site/docs/mybatis.md",
+  "sourceDirName": ".",
+  "slug": "/doc-with-tags",
+  "permalink": "/docs/doc-with-tags",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mybatis.md",
+  "tags": [
+    {
+      "label": "演示",
+      "permalink": "/docs/tags/演示"
+    },
+    {
+      "label": "开始上手",
+      "permalink": "/docs/tags/开始上手"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "doc-with-tags",
+    "title": "ORM简介",
+    "tags": [
+      "演示",
+      "开始上手"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "git",
+    "permalink": "/docs/git"
+  },
+  "next": {
+    "title": "fff",
+    "permalink": "/docs/"
+  }
+}

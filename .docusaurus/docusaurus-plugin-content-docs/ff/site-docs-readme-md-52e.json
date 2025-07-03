@@ -1,0 +1,19 @@
+{
+  "unversionedId": "readme",
+  "id": "readme",
+  "title": "fff",
+  "description": "fffffffffffffffffffffffffffffff",
+  "source": "@site/docs/readme.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "git",
+    "permalink": "/docs/git"
+  }
+}

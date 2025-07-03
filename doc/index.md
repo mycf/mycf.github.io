@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "ycf博客"
-  text: "ycf博快"
+  name: "My Awesome Project"
+  text: "A VitePress Site"
   tagline: My great project tagline
   actions:
     - theme: brand

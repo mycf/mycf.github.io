@@ -14,7 +14,6 @@ private int size;
     public ArrayList() {
         this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
     }
-
 ```
 
 ```

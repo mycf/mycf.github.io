@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: 'java基础',
         items: [
-          { text: 'arryaList', link: '/java基础/arrayList' },
+          { text: 'arryaList', link: '/java基础/arraylist' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }

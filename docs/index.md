@@ -14,7 +14,7 @@ hero:
       text: API Examples
       link: /api-examples
     - theme: alt
-      text: API Examples
+      text: java基础
       link: /java基础/arraylist.md
 
 features:

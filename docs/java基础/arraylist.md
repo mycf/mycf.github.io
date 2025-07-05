@@ -1,6 +1,6 @@
 ```java
 // 默认容量为`10`
-private static final int DEFAULT_CAPACITY = 10;
+private static final int DEFAULT_CAPACITY = 10; // [!code focus]
 private static final Object[] EMPTY_ELEMENTDATA = {};
 private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
 transient Object[] elementData; // non-private to simplify nested class access

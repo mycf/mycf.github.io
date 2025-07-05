@@ -29,13 +29,14 @@ private int size;
 ```
 ```
 ```
-```java{1}
+```java{2}
     private Object[] grow() {
         return grow(size + 1);
     }
 ```
 ```
 ```
+
 ```java
     private Object[] grow(int minCapacity) {
         int oldCapacity = elementData.length;

@@ -25,17 +25,13 @@ private int size;
 
 在使用`add`方法时，会自动扩容。
 
-```
-```
-```
-```
 ```java{2}
     private Object[] grow() {
         return grow(size + 1);
     }
 ```
-```
-```
+
+
 
 ```java
     private Object[] grow(int minCapacity) {
@@ -49,8 +45,8 @@ private int size;
             return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)]; // [!code highlight]
         }
     }
-
 ```
+
 自己指定`initialCapacity`为0，和不指定`initialCapacity`的`elementData`内部数组不同
 
 ```java

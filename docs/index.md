@@ -12,7 +12,7 @@ hero:
       # link: /markdown-examples
     - theme: brand
       text: netty
-      link: /netty/index
+      link: /netty/
     - theme: alt
       text: java基础
       link: /java基础/arraylist

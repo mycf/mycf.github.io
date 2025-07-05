@@ -10,23 +10,34 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
+    sidebar: {
+      '/java基础/': [{
 
-    sidebar: [
-      {
         text: 'java基础',
         items: [
           { text: 'arrayList', link: '/java基础/arraylist' },
           { text: 'linkedlist', link: '/linkedlist' }
         ]
-      }, {
-        text: 'java',
-        items: [
-          { text: 'arrayList', link: '/java基础/arraylist' },
-          { text: 'linkedlist', link: '/java基础/linkedlist' }
-        ]
-      }
 
-    ],
+      }]
+    }
+
+    // sidebar: [
+    //   {
+    //     text: 'java基础',
+    //     items: [
+    //       { text: 'arrayList', link: '/java基础/arraylist' },
+    //       { text: 'linkedlist', link: '/linkedlist' }
+    //     ]
+    //   }, {
+    //     text: 'java',
+    //     items: [
+    //       { text: 'arrayList', link: '/java基础/arraylist' },
+    //       { text: 'linkedlist', link: '/java基础/linkedlist' }
+    //     ]
+    //   }
+    //
+    // ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

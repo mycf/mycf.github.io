@@ -5,17 +5,17 @@ layout: home
 hero:
   name: "我的世界"
   # text: "A VitePress Site"
-  tagline: My great project tagline
+  # tagline: My great project tagline
   actions:
+    # - theme: brand
+      # text: Markdown Examples
+      # link: /markdown-examples
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: netty
+      link: /netty/index
     - theme: alt
       text: java基础
-      link: /java基础/arraylist.md
+      link: /java基础/arraylist
 
 features:
   - title: Feature A

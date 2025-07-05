@@ -18,7 +18,14 @@ export default defineConfig({
           { text: 'arrayList', link: '/java基础/arraylist' },
           { text: 'linkedlist', link: '/linkedlist' }
         ]
+      }, {
+        text: 'java',
+        items: [
+          { text: 'arrayList', link: '/java基础/arraylist' },
+          { text: 'linkedlist', link: '/java基础/linkedlist' }
+        ]
       }
+
     ],
 
     socialLinks: [

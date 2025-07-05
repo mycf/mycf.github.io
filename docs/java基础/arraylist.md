@@ -7,8 +7,23 @@ transient Object[] elementData; // non-private to simplify nested class access
 private int size;
 ```
 
-> 没有指定初始容量，默认是**0**。
-> 自己指定`initialCapacity`为0，和不指定`initialCapacity`的`elementData`内部数组不同
+没有指定初始容量，默认是**0**。
+自己指定`initialCapacity`为0，和不指定`initialCapacity`的`elementData`内部数组不同
+
+```java
+    private Object[] grow(int minCapacity) {
+        int oldCapacity = elementData.length;
+        if (oldCapacity > 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {// [!code highlight]
+            int newCapacity = ArraysSupport.newLength(oldCapacity,
+                    minCapacity - oldCapacity, /* minimum growth */
+                    oldCapacity >> 1           /* preferred growth */);
+            return elementData = Arrays.copyOf(elementData, newCapacity);
+        } else {
+            return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)]; // [!code highlight]
+        }
+    }
+
+```
 
 ```java
 public ArrayList() {

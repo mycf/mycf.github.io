@@ -19,7 +19,17 @@ export default defineConfig({
           { text: 'linkedlist', link: '/linkedlist' }
         ]
 
+      }],
+      '/netty/': [{
+
+        text: 'netty',
+        items: [
+          { text: 'nio', link: '/java基础/arraylist' },
+          { text: 'linkedlist', link: '/linkedlist' }
+        ]
+
       }]
+
     },
 
     // sidebar: [

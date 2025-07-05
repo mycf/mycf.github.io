@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "我的世界"
-  text: "A VitePress Site"
+  # text: "A VitePress Site"
   tagline: My great project tagline
   actions:
     - theme: brand

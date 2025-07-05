@@ -7,7 +7,7 @@ transient Object[] elementData; // non-private to simplify nested class access
 private int size;
 ```
 
-使用无参构造初始化列表时，初始容量，默认是**0**。
+使用无参构造初始化列表时，容量默认是**0**。
 ```java{2}
     public ArrayList() {
         this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
@@ -23,7 +23,16 @@ private int size;
     }
 ```
 
+在使用`add`方法时，会自动扩容。
+
 ```
+```
+```
+```
+```java{1}
+    private Object[] grow() {
+        return grow(size + 1);
+    }
 ```
 ```
 ```

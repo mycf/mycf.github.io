@@ -10,7 +10,7 @@ private int size;
 没有指定初始容量，默认是**0**。
 自己指定`initialCapacity`为0，和不指定`initialCapacity`的`elementData`内部数组不同
 
-```java{1}
+```java{2}
     public ArrayList() {
         this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
     }

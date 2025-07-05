@@ -13,9 +13,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'java基础',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'arryList', link: '/java基础/arryList' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }

@@ -32,7 +32,6 @@ private int size;
 ```
 
 
-
 ```java
     private Object[] grow(int minCapacity) {
         int oldCapacity = elementData.length;

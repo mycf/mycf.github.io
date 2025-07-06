@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           { text: 'arrayList', link: '/java基础/arraylist' },
           { text: 'volatile', link: '/java基础/volatile' },
-          { text: 'linkedlist', link: '/linkedlist' }
+          { text: 'linkedlist', link: '/java基础/linkedlist' }
         ]
 
       }],

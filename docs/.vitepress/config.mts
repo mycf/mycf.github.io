@@ -11,7 +11,7 @@ export default defineConfig({
       //   diagramsDir: "docs/public/diagrams", // 可选：自定义 SVG 文件目录
       //   publicPath: "/diagrams", // 可选：自定义公共路径
       // });
-      const md = require('markdown-it')()
+      require('markdown-it')()
         .use(require('markdown-it-textual-uml'));
     },
   },

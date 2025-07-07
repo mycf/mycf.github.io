@@ -14,8 +14,7 @@ export default defineConfig({
       //   diagramsDir: "docs/public/diagrams", // 可选：自定义 SVG 文件目录
       //   publicPath: "/diagrams", // 可选：自定义公共路径
       // });
-      MarkdownIt()
-        .use(markdownItTextualUml);
+      md.use(markdownItTextualUml);
     },
   },
   themeConfig: {

@@ -1,7 +1,7 @@
 # vitepress使用
 
 
-# 集成[Kroki](https://kroki.io/#install)插件
+# 集成[Kroki](https://kroki.io/)插件
 
 ```sh
 npm install --save-dev vitepress-plugin-diagrams

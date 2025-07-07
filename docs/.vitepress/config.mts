@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { configureDiagramsPlugin } from "vitepress-plugin-diagrams";
+// import { configureDiagramsPlugin } from "vitepress-plugin-diagrams";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,10 +7,12 @@ export default defineConfig({
   description: "A VitePress Site",
   markdown: {
     config: (md) => {
-      configureDiagramsPlugin(md, {
-        diagramsDir: "docs/public/diagrams", // 可选：自定义 SVG 文件目录
-        publicPath: "/diagrams", // 可选：自定义公共路径
-      });
+      // configureDiagramsPlugin(md, {
+      //   diagramsDir: "docs/public/diagrams", // 可选：自定义 SVG 文件目录
+      //   publicPath: "/diagrams", // 可选：自定义公共路径
+      // });
+      const md = require('markdown-it')()
+        .use(require('markdown-it-textual-uml'));
     },
   },
   themeConfig: {

@@ -1,9 +1,18 @@
 import { defineConfig } from 'vitepress'
+import { configureDiagramsPlugin } from "vitepress-plugin-diagrams";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "YCF的文档",
-  // description: "A VitePress Site",
+  description: "A VitePress Site",
+  markdown: {
+    config: (md) => {
+      configureDiagramsPlugin(md, {
+        diagramsDir: "docs/public/diagrams", // 可选：自定义 SVG 文件目录
+        publicPath: "/diagrams", // 可选：自定义公共路径
+      });
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

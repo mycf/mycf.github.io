@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 // import { configureDiagramsPlugin } from "vitepress-plugin-diagrams";
 
+import markdownItTextualUml from 'markdown-it-textual-uml'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "YCF的文档",
@@ -12,7 +13,7 @@ export default defineConfig({
       //   publicPath: "/diagrams", // 可选：自定义公共路径
       // });
       require('markdown-it')()
-        .use(require('markdown-it-textual-uml'));
+        .use(markdownItTextualUml);
     },
   },
   themeConfig: {

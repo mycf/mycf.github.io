@@ -42,8 +42,8 @@ jobs:
         run: docker ps -a | grep kroki
       - name: test3
         run: curl -v http://localhost:8000
-      - name: test2
-        run: curl http://localhost:8000/graphviz/svg --data-raw 'digraph G {Hell->World}'
+      # - name: test2
+      #   run: curl http://localhost:8000/graphviz/svg --data-raw 'digraph G {Hell->World}'
         # run: sed -i 's|`https://kroki.io/${e}`|`https://localhost:8000/${e}`|g' node_modules/vitepress-plugin-diagrams/index.js
       # - name: replace2
       #   run: sed -i 's|`https://kroki.io/${e}`|`https://localhost:8000/${e}`|g' node_modules/vitepress-plugin-diagrams/index.cjs

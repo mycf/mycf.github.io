@@ -35,7 +35,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Start Kroki server
-        run: docker run -d -p 8000:8000 ghcr.io/yuzutech/kroki
+        run: docker run -d -p 8000:8000 yuzutech/kroki
       - name: Checkout
         uses: actions/checkout@v4
         with:

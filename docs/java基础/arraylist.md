@@ -1,3 +1,4 @@
+1
 ```java
 // 默认容量为`10`
 private static final int DEFAULT_CAPACITY = 10; 

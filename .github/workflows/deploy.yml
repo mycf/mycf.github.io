@@ -28,6 +28,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Start Kroki server
+        run: docker run -d -p 8000:8000 ghcr.io/lucidsoftware/kroki
       - name: Checkout
         uses: actions/checkout@v4
         with:

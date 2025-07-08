@@ -39,7 +39,7 @@ jobs:
       - name: test
         run: curl https://kroki.io/graphviz/svg --data-raw 'digraph G {Hello->World}'
       - name: test2
-        run: curl https://localhost:8000/graphviz/svg --data-raw 'digraph G {Hello->World}'
+        run: curl http://localhost:8000/graphviz/svg --data-raw 'digraph G {Hello->World}'
       - name: Checkout
         uses: actions/checkout@v4
         with:

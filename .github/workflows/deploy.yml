@@ -36,8 +36,8 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Start Kroki server
         run: docker run -d -p 8000:8000 yuzutech/kroki
-      - name: test
-        run: curl https://kroki.io/graphviz/svg --data-raw 'digraph G {Hello->World}'
+      # - name: test
+      #   run: curl https://kroki.io/graphviz/svg --data-raw 'digraph G {Hello->World}'
       - name: test2
         run: curl http://localhost:8000/graphviz/svg --data-raw 'digraph G {Hell->World}'
       - name: replace

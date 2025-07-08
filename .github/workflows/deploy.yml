@@ -40,6 +40,10 @@ jobs:
         run: curl https://kroki.io/graphviz/svg --data-raw 'digraph G {Hello->World}'
       - name: test2
         run: curl http://localhost:8000/graphviz/svg --data-raw 'digraph G {Hell->World}'
+      - name: replace
+        run: sed -i 's|`https://kroki.io/${e}`|`https://localhost:8000/${e}`|g' node_modules/vitepress-plugin-diagrams/index.js
+      - name: replace2
+        run: sed -i 's|`https://kroki.io/${e}`|`https://localhost:8000/${e}`|g' node_modules/vitepress-plugin-diagrams/index.cjs
       - name: Checkout
         uses: actions/checkout@v4
         with:

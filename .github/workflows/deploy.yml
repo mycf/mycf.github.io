@@ -39,7 +39,7 @@ jobs:
       # - name: test
       #   run: curl https://kroki.io/graphviz/svg --data-raw 'digraph G {Hello->World}'
       - name: replace
-        run: ll
+        run: ls -l
       - name: h
         run: docker ps -a | grep kroki
       - name: test2

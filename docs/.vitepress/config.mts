@@ -38,6 +38,7 @@ export default defineConfig({
       '/netty/': [{
 
         text: 'netty',
+        collapsed: true,
         items: [
           { text: 'nio', link: '/java基础/arraylist' },
           { text: 'linkedlist', link: '/linkedlist' }
@@ -46,6 +47,7 @@ export default defineConfig({
       }],
       '/设计模式/': [{
         text: '设计模式',
+        collapsed: true,
         items: [
           { text: '6大设计原则', link: '/设计模式/6大设计原则' },
         ]

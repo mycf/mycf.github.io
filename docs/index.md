@@ -18,7 +18,7 @@ hero:
       link: /java基础/arraylist
     - theme: alt
       text: 设计模式
-      link: /设计模式/
+      link: /设计模式/6大设计原则
 
 features:
   - title: Feature A

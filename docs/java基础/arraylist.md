@@ -7,15 +7,6 @@ transient Object[] elementData; // non-private to simplify nested class access
 private int size;
 ```
 
-```plantuml
-@startuml
-:First Actor:
-:Another\nactor: as Man2
-actor Woman3
-actor :Last actor: as Person1
-@enduml
-```
-
 
 
 使用无参构造初始化列表时，容量默认是**0**。

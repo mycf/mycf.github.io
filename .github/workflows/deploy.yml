@@ -38,12 +38,12 @@ jobs:
       #   run: docker run -d -p 8000:8000 -e JAVA_OPTS="-Xmx512m" yuzutech/kroki
       # - name: test
       #   run: curl https://kroki.io/graphviz/svg --data-raw 'digraph G {Hello->World}'
-      - name: h
-        run: |
-          docker ps -a | grep kroki
-          sleep 5
-      - name: test3
-        run: curl -v http://localhost:8000
+      # - name: h
+      #   run: |
+      #     docker ps -a | grep kroki
+      #     sleep 5
+      # - name: test3
+      #   run: curl -v http://localhost:8000
       # - name: test2
       #   run: curl http://localhost:8000/graphviz/svg --data-raw 'digraph G {Hell->World}'
         # run: sed -i 's|`https://kroki.io/${e}`|`https://localhost:8000/${e}`|g' node_modules/vitepress-plugin-diagrams/index.js

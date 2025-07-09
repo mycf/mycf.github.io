@@ -34,8 +34,8 @@ jobs:
       #     registry: ghcr.io
       #     username: ${{ github.actor }}
       #     password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Start Kroki server
-        run: docker run -d -p 8000:8000 -e JAVA_OPTS="-Xmx512m" yuzutech/kroki
+      # - name: Start Kroki server
+      #   run: docker run -d -p 8000:8000 -e JAVA_OPTS="-Xmx512m" yuzutech/kroki
       # - name: test
       #   run: curl https://kroki.io/graphviz/svg --data-raw 'digraph G {Hello->World}'
       - name: h

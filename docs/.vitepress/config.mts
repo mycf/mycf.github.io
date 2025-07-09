@@ -27,7 +27,7 @@ export default defineConfig({
       '/java基础/': [{
 
         text: 'java基础',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'arrayList', link: '/java基础/arraylist' },
           { text: 'volatile', link: '/java基础/volatile' },

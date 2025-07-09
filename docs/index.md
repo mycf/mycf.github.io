@@ -16,6 +16,9 @@ hero:
     - theme: brand
       text: java基础
       link: /java基础/arraylist
+    - theme: alt
+      text: 设计模式
+      link: /设计模式/
 
 features:
   - title: Feature A

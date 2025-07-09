@@ -10,10 +10,10 @@ hero:
     - theme: brand
       text: Spring
       link: /spring/事务.md
-    - theme: brand
+    - theme: alt
       text: netty
       link: /netty/
-    - theme: alt
+    - theme: brand
       text: java基础
       link: /java基础/arraylist
 

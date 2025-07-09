@@ -52,36 +52,34 @@ export default defineConfig({
           { text: '6大设计原则', link: '/设计模式/6大设计原则' },
           {
             text: '创建型模式', link: '/设计模式/创建型模式', items: [
-              {
 
-          { text: '抽象工厂模式', link: '/设计模式/创建型模式#抽象工厂' },
-              }
+              { text: '抽象工厂模式', link: '/设计模式/创建型模式#抽象工厂' },
+            ]
+          },
         ]
-      },
-      ]
-    }]
+      }]
 
-  },
+    },
 
-  // sidebar: [
-  //   {
-  //     text: 'java基础',
-  //     items: [
-  //       { text: 'arrayList', link: '/java基础/arraylist' },
-  //       { text: 'linkedlist', link: '/linkedlist' }
-  //     ]
-  //   }, {
-  //     text: 'java',
-  //     items: [
-  //       { text: 'arrayList', link: '/java基础/arraylist' },
-  //       { text: 'linkedlist', link: '/java基础/linkedlist' }
-  //     ]
-  //   }
-  //
-  // ],
+    // sidebar: [
+    //   {
+    //     text: 'java基础',
+    //     items: [
+    //       { text: 'arrayList', link: '/java基础/arraylist' },
+    //       { text: 'linkedlist', link: '/linkedlist' }
+    //     ]
+    //   }, {
+    //     text: 'java',
+    //     items: [
+    //       { text: 'arrayList', link: '/java基础/arraylist' },
+    //       { text: 'linkedlist', link: '/java基础/linkedlist' }
+    //     ]
+    //   }
+    //
+    // ],
 
-  socialLinks: [
-    { icon: 'github', link: 'https://github.com/mycf/mycf.github.io' }
-  ]
-}
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/mycf/mycf.github.io' }
+    ]
+  }
 })

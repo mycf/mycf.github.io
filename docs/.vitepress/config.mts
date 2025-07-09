@@ -43,6 +43,12 @@ export default defineConfig({
           { text: 'linkedlist', link: '/linkedlist' }
         ]
 
+      }],
+      '/设计模式/': [{
+        text: '设计模式',
+        items: [
+          { text: '6大设计原则', link: '/设计模式/6大设计原则' },
+        ]
       }]
 
     },

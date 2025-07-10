@@ -8,6 +8,14 @@ import MarkdownIt from 'markdown-it';
 export default defineConfig({
   title: "YCF的文档",
   description: "A VitePress Site",
+  lang: 'zh-CN',
+  // locales: {
+  //   root: {
+  //     label: '中文',
+  //     lang: 'ch'
+  //   }
+  //
+  // },
   markdown: {
     config: (md) => {
       configureDiagramsPlugin(md, {

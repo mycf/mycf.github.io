@@ -49,7 +49,7 @@ export default defineConfig({
         text: '设计模式',
         collapsed: true,
         items: [
-          { text: '6大设计原则', link: '/设计模式/6大设计原则' },
+          { text: '六大设计原则', link: '/设计模式/六大设计原则' },
           {
             text: '创建型模式', link: '/设计模式/创建型模式', items: [
 

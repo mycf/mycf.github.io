@@ -43,8 +43,6 @@ export default defineConfig({
         text: 'netty',
         collapsed: true,
         items: [
-          { text: 'nio', link: '/java基础/arraylist' },
-          { text: 'linkedlist', link: '/linkedlist' }
         ]
 
       }],

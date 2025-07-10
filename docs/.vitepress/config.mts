@@ -77,24 +77,6 @@ export default defineConfig({
       }]
 
     },
-
-    // sidebar: [
-    //   {
-    //     text: 'java基础',
-    //     items: [
-    //       { text: 'arrayList', link: '/java基础/arraylist' },
-    //       { text: 'linkedlist', link: '/linkedlist' }
-    //     ]
-    //   }, {
-    //     text: 'java',
-    //     items: [
-    //       { text: 'arrayList', link: '/java基础/arraylist' },
-    //       { text: 'linkedlist', link: '/java基础/linkedlist' }
-    //     ]
-    //   }
-    //
-    // ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mycf/mycf.github.io' }
     ]

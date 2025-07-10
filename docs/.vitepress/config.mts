@@ -55,7 +55,7 @@ export default defineConfig({
         items: [
 
           { text: 'g1收集器', link: '/java基础/jvm/g1收集器' },
-          { text: 'ZGC收集器', link: '/java基础/jvm/ZGC收集器' },
+          { text: 'ZGC收集器', link: '/java基础/jvm/zgc收集器' },
         ]
 
       }],

@@ -43,7 +43,7 @@ export default defineConfig({
           { text: 'arrayList', link: '/java基础/arraylist' },
           { text: 'volatile', link: '/java基础/volatile' },
           { text: 'linkedlist', link: '/java基础/linkedlist' },
-          { text: 'jvm', link: '/java基础/jvm/' }
+          { text: 'jvm', link: '/java基础/jvm/g1收集器' }
         ]
 
       }],

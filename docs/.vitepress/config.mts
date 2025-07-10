@@ -8,6 +8,9 @@ import MarkdownIt from 'markdown-it';
 export default defineConfig({
   title: "YCF的文档",
   description: "A VitePress Site",
+  search: {
+    provider: 'local'
+  },
   markdown: {
     config: (md) => {
       configureDiagramsPlugin(md, {

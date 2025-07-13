@@ -92,6 +92,7 @@ export default defineConfig({
               { text: '工厂方法模式', link: '/设计模式/创建型模式#工厂方法模式' },
             ]
           },
+          { text: '行为型模式', link: '/设计模式/行为型模式' },
         ]
       }]
 

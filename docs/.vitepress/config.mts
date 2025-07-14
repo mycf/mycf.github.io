@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 import { configureDiagramsPlugin } from "vitepress-plugin-diagrams";
+let excalidrawAPI = ref(null);   // 存储 API 实例
 
+import { ref, onMounted } from "vue";
+// import { createExcalidrawPlugin } from '@excalidraw/excalidraw/vite';
 // import markdownItTextualUml from 'markdown-it-textual-uml'
 // 改为静态导入
 import MarkdownIt from 'markdown-it';
@@ -9,6 +12,14 @@ export default defineConfig({
   title: "YCF的文档",
   description: "A VitePress Site",
   lang: 'zh-CN',
+  // vite: {
+  //   plugins: [
+  //     createExcalidrawPlugin(), // 启用 Excalidraw 支持
+  //   ],
+  // },
+  define: {
+    'process.env': {}
+  },
   // locales: {
   //   root: {
   //     label: '中文',
@@ -22,7 +33,20 @@ export default defineConfig({
         diagramsDir: "docs/public/diagrams", // 可选：自定义 SVG 文件目录
         publicPath: "/diagrams", // 可选：自定义公共路径
       });
-      // md.use(markdownItTextualUml);
+
+
+      const defaultImg = md.renderer.rules.image
+      md.renderer.rules.image = (tokens, idx, options, env, slf) => {
+        const token = tokens[idx];
+        console.log(token)
+        const src = token.attrGet('src');
+        if (src.endsWith('.excalidraw')) {
+          // 如果是 .excalidraw 文件，渲染为 Excalidraw 组件
+          return `<Excalidraw data-src="${src}"/>`;
+        }
+        // 默认图片渲染
+        return defaultImg(token, idx, options, env, slf)
+      };
     },
   },
   themeConfig: {

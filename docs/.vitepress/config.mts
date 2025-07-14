@@ -11,10 +11,9 @@ import MarkdownIt from 'markdown-it';
 export default defineConfig({
   vite: {
     resolve: {
-      alias: {
-        // 修复 roughjs 路径问题
-        'roughjs/bin/rough': 'roughjs/bin/rough.js',
-      },
+      alias:
+        { find: 'roughjs/bin/rough', replacement: 'roughjs/bin/rough.js' }
+      ,
     },
     optimizeDeps: {
       // 强制预构建某些依赖

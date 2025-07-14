@@ -16,7 +16,7 @@ export default defineConfig({
         'roughjs/bin/rough': 'roughjs/bin/rough.js',
       },
     },
-  }
+  },
   title: "YCF的文档",
   description: "A VitePress Site",
   lang: 'zh-CN',

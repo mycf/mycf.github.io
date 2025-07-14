@@ -9,6 +9,14 @@ import { ref, onMounted } from "vue";
 import MarkdownIt from 'markdown-it';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: {
+        // 修复 roughjs 路径问题
+        'roughjs/bin/rough': 'roughjs/bin/rough.js',
+      },
+    },
+  }
   title: "YCF的文档",
   description: "A VitePress Site",
   lang: 'zh-CN',

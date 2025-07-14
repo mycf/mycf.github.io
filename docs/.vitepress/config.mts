@@ -16,6 +16,10 @@ export default defineConfig({
         'roughjs/bin/rough': 'roughjs/bin/rough.js',
       },
     },
+    optimizeDeps: {
+      // 强制预构建某些依赖
+      include: ['@excalidraw/excalidraw', 'roughjs'],
+    },
   },
   title: "YCF的文档",
   description: "A VitePress Site",

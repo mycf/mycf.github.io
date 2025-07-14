@@ -63,7 +63,7 @@ jobs:
           node-version: 22
           cache: npm # 或 pnpm / yarn
       - name: replace
-        run: ls -la docs/
+        run: ls -la docs/.vitepress/
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies

@@ -11,14 +11,10 @@ import MarkdownIt from 'markdown-it';
 export default defineConfig({
   vite: {
     resolve: {
-      alias:
-        { find: 'roughjs/bin/rough', replacement: 'roughjs/bin/rough.js' }
-      ,
-    },
-    optimizeDeps: {
-      // 强制预构建某些依赖
-      include: ['@excalidraw/excalidraw', 'roughjs'],
-    },
+      alias: {
+        'roughjs/bin/rough': 'roughjs/bin/rough.js' // 补全 .js 后缀
+      }
+    }
   },
   title: "YCF的文档",
   description: "A VitePress Site",

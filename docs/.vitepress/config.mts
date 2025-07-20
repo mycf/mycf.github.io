@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { configureDiagramsPlugin } from "vitepress-plugin-diagrams";
+import path from 'path'
 let excalidrawAPI = ref(null);   // 存储 API 实例
 
 import { ref, onMounted } from "vue";
@@ -12,9 +13,12 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        'roughjs/bin/rough': 'roughjs/bin/rough.js' // 补全 .js 后缀
-      }
-    }
+        'roughjs/bin/rough': path.resolve(
+          __dirname,
+          '../../node_modules/@excalidraw/excalidraw/node_modules/roughjs/bin/rough.js'
+        ),
+      },
+    },
   },
   title: "YCF的文档",
   description: "A VitePress Site",
@@ -26,6 +30,14 @@ export default defineConfig({
   // },
   define: {
     'process.env': {}
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      // Bumping to 2022 due to "Arbitrary module namespace identifier names" not being
+      // supported in Vite's default browser target https://github.com/vitejs/vite/issues/13556
+      target: "es2022",
+      treeShaking: true,
+    },
   },
   // locales: {
   //   root: {

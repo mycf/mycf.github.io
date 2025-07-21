@@ -1,9 +1,11 @@
 {
+  "main":"./index",
   "scripts": {
     "build": "vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node dist/index.js"
   },
   "dependencies": {
     "@excalidraw/excalidraw": "^0.18.0",

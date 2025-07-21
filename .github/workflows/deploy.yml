@@ -60,7 +60,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24.4.1
           cache: npm # 或 pnpm / yarn
       # - name: replace
       #   run: ls -la node_modules/roughjs/bin/

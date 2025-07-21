@@ -13,11 +13,19 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        'roughjs/bin/rough': path.resolve(
-          __dirname,
-          '../../node_modules/@excalidraw/excalidraw/node_modules/roughjs/bin/rough.js'
-        ),
+        'roughjs/bin/rough': 'roughjs/bin/rough.js',
       },
+    },
+    optimizeDeps: {
+      esbuildOptions: {
+        // Bumping to 2022 due to "Arbitrary module namespace identifier names" not being
+        // supported in Vite's default browser target https://github.com/vitejs/vite/issues/13556
+        target: "es2022",
+        treeShaking: true,
+      },
+    },
+    define: {
+      'process.env': {}
     },
   },
   title: "YCF的文档",
@@ -28,17 +36,9 @@ export default defineConfig({
   //     createExcalidrawPlugin(), // 启用 Excalidraw 支持
   //   ],
   // },
-  define: {
-    'process.env': {}
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      // Bumping to 2022 due to "Arbitrary module namespace identifier names" not being
-      // supported in Vite's default browser target https://github.com/vitejs/vite/issues/13556
-      target: "es2022",
-      treeShaking: true,
-    },
-  },
+  // define: {
+  //   'process.env': {}
+  // },
   // locales: {
   //   root: {
   //     label: '中文',

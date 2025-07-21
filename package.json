@@ -1,5 +1,5 @@
 {
-  "main":"./index",
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "docs:dev": "vitepress dev docs",

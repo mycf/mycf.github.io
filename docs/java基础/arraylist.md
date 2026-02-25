@@ -1,55 +1,14 @@
 ```java
 // 默认容量为`10`
-private static final int DEFAULT_CAPACITY = 10; 
+private static final int DEFAULT_CAPACITY = 10;
 private static final Object[] EMPTY_ELEMENTDATA = {};
 private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
 transient Object[] elementData; // non-private to simplify nested class access
 private int size;
 ```
 
-
-
-使用无参构造初始化列表时，容量默认是**0**。
-
-```java{2}
-    public ArrayList() {
-        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
-    }
-```
-
-```java{1,3}
-    private void add(E e, Object[] elementData, int s) {
-        if (s == elementData.length)
-            elementData = grow();
-        elementData[s] = e;
-        size = s + 1;
-    }
-```
-
-在使用`add`方法时，会自动扩容。
-
-```java{2}
-    private Object[] grow() {
-        return grow(size + 1);
-    }
-```
-
-
-```java
-    private Object[] grow(int minCapacity) {
-        int oldCapacity = elementData.length;
-        if (oldCapacity > 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {// [!code highlight]
-            int newCapacity = ArraysSupport.newLength(oldCapacity,
-                    minCapacity - oldCapacity, /* minimum growth */
-                    oldCapacity >> 1           /* preferred growth */);
-            return elementData = Arrays.copyOf(elementData, newCapacity);
-        } else {
-            return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)]; // [!code highlight]
-        }
-    }
-```
-
-自己指定`initialCapacity`为0，和不指定`initialCapacity`的`elementData`内部数组不同
+> 没有指定初始容量，默认是**0**。
+> 自己指定`initialCapacity`为0，和不指定`initialCapacity`的`elementData`内部数组不同
 
 ```java
 public ArrayList() {

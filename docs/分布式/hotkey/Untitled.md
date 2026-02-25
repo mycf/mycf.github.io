@@ -1,0 +1,1 @@
+https://gitee.com/primitiveheart/hotkey?skip_mobile=true

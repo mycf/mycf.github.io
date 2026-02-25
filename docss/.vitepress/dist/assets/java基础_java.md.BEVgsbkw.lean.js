@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./chunks/framework.Bw-5EFTY.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"java基础/java.md","filePath":"java基础/java.md"}'),r={name:"java基础/java.md"};function o(s,c,n,p,_,d){return t(),e("div")}const v=a(r,[["render",o]]);export{m as __pageData,v as default};

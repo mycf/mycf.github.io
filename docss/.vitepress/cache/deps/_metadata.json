@@ -1,0 +1,409 @@
+{
+  "hash": "e2c3f8dc",
+  "configHash": "eb0645ab",
+  "lockfileHash": "26846485",
+  "browserHash": "f71e4333",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "fe27171d",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "bc74efab",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "4796016a",
+      "needsInterop": false
+    },
+    "@excalidraw/excalidraw": {
+      "src": "../../../../node_modules/@excalidraw/excalidraw/dist/dev/index.js",
+      "file": "@excalidraw_excalidraw.js",
+      "fileHash": "a5cc1677",
+      "needsInterop": false
+    },
+    "roughjs": {
+      "src": "../../../../node_modules/roughjs/bundled/rough.esm.js",
+      "file": "roughjs.js",
+      "fileHash": "4c35e137",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "824a4924",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "fda2f52d",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../../node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "0d055161",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "55d33c37",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "39cd82cf",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "mindmap-definition-fc14e90a-B7MJOW42": {
+      "file": "mindmap-definition-fc14e90a-B7MJOW42.js"
+    },
+    "sankeyDiagram-04a897e0-MIKW6VAY": {
+      "file": "sankeyDiagram-04a897e0-MIKW6VAY.js"
+    },
+    "blockDiagram-38ab4fdb-NXKG2SRT": {
+      "file": "blockDiagram-38ab4fdb-NXKG2SRT.js"
+    },
+    "dist-OEL5XLJA": {
+      "file": "dist-OEL5XLJA.js"
+    },
+    "roundRect-RC2XKJIG": {
+      "file": "roundRect-RC2XKJIG.js"
+    },
+    "sequenceDiagram-704730f1-ZKXW22ZB": {
+      "file": "sequenceDiagram-704730f1-ZKXW22ZB.js"
+    },
+    "classDiagram-70f12bd4-4PKJLXLL": {
+      "file": "classDiagram-70f12bd4-4PKJLXLL.js"
+    },
+    "classDiagram-v2-f2320105-I5IIGFMU": {
+      "file": "classDiagram-v2-f2320105-I5IIGFMU.js"
+    },
+    "chunk-5MVVSYSK": {
+      "file": "chunk-5MVVSYSK.js"
+    },
+    "stateDiagram-587899a1-OPL7HWKP": {
+      "file": "stateDiagram-587899a1-OPL7HWKP.js"
+    },
+    "stateDiagram-v2-d93cdb3a-GYPOMOON": {
+      "file": "stateDiagram-v2-d93cdb3a-GYPOMOON.js"
+    },
+    "chunk-CJ4KTCNF": {
+      "file": "chunk-CJ4KTCNF.js"
+    },
+    "journeyDiagram-49397b02-R2KKWN5A": {
+      "file": "journeyDiagram-49397b02-R2KKWN5A.js"
+    },
+    "flowchart-elk-definition-4a651766-2DM3LZZR": {
+      "file": "flowchart-elk-definition-4a651766-2DM3LZZR.js"
+    },
+    "timeline-definition-85554ec2-Z7RWA2KD": {
+      "file": "timeline-definition-85554ec2-Z7RWA2KD.js"
+    },
+    "erDiagram-9861fffd-WVWGNNSC": {
+      "file": "erDiagram-9861fffd-WVWGNNSC.js"
+    },
+    "gitGraphDiagram-72cf32ee-ROOGOABP": {
+      "file": "gitGraphDiagram-72cf32ee-ROOGOABP.js"
+    },
+    "ganttDiagram-c361ad54-XH7FBJOJ": {
+      "file": "ganttDiagram-c361ad54-XH7FBJOJ.js"
+    },
+    "infoDiagram-f8f76790-3OOGW4J5": {
+      "file": "infoDiagram-f8f76790-3OOGW4J5.js"
+    },
+    "pieDiagram-8a3498a8-YMEDSQM4": {
+      "file": "pieDiagram-8a3498a8-YMEDSQM4.js"
+    },
+    "quadrantDiagram-120e2f19-KJ3LT44X": {
+      "file": "quadrantDiagram-120e2f19-KJ3LT44X.js"
+    },
+    "xychartDiagram-e933f94c-QX73F4AM": {
+      "file": "xychartDiagram-e933f94c-QX73F4AM.js"
+    },
+    "requirementDiagram-deff3bca-PXRPOWIP": {
+      "file": "requirementDiagram-deff3bca-PXRPOWIP.js"
+    },
+    "vi-VN-Y5CQ2EKQ-J73MB6FV": {
+      "file": "vi-VN-Y5CQ2EKQ-J73MB6FV.js"
+    },
+    "zh-CN-4MXUOFTH-QT3S2L6M": {
+      "file": "zh-CN-4MXUOFTH-QT3S2L6M.js"
+    },
+    "zh-HK-RBTGIU3U-2L6OPH5R": {
+      "file": "zh-HK-RBTGIU3U-2L6OPH5R.js"
+    },
+    "zh-TW-U5VF4CCU-6WW2BFZZ": {
+      "file": "zh-TW-U5VF4CCU-6WW2BFZZ.js"
+    },
+    "katex-S24ZH7E6": {
+      "file": "katex-S24ZH7E6.js"
+    },
+    "c4Diagram-3d4e48cf-G3LX5QFK": {
+      "file": "c4Diagram-3d4e48cf-G3LX5QFK.js"
+    },
+    "chunk-SGOIFPFQ": {
+      "file": "chunk-SGOIFPFQ.js"
+    },
+    "flowDiagram-66a62f08-3FFHCT74": {
+      "file": "flowDiagram-66a62f08-3FFHCT74.js"
+    },
+    "flowDiagram-v2-96b9c2cf-JR72AHW4": {
+      "file": "flowDiagram-v2-96b9c2cf-JR72AHW4.js"
+    },
+    "chunk-R7U74UEL": {
+      "file": "chunk-R7U74UEL.js"
+    },
+    "chunk-Y6HZFPGC": {
+      "file": "chunk-Y6HZFPGC.js"
+    },
+    "chunk-EEAYTFED": {
+      "file": "chunk-EEAYTFED.js"
+    },
+    "chunk-YPOEZ7OF": {
+      "file": "chunk-YPOEZ7OF.js"
+    },
+    "chunk-76NO6BEQ": {
+      "file": "chunk-76NO6BEQ.js"
+    },
+    "chunk-TGAJ26LR": {
+      "file": "chunk-TGAJ26LR.js"
+    },
+    "chunk-JRAKSK6F": {
+      "file": "chunk-JRAKSK6F.js"
+    },
+    "chunk-IEHWG5OC": {
+      "file": "chunk-IEHWG5OC.js"
+    },
+    "si-LK-KT7GGO6D-RTRJNIO5": {
+      "file": "si-LK-KT7GGO6D-RTRJNIO5.js"
+    },
+    "sk-SK-DY6IPO5U-4FOOKLMH": {
+      "file": "sk-SK-DY6IPO5U-4FOOKLMH.js"
+    },
+    "sl-SI-5DZSRA47-X3GOQWPA": {
+      "file": "sl-SI-5DZSRA47-X3GOQWPA.js"
+    },
+    "sv-SE-V32YHALQ-BLFYEM34": {
+      "file": "sv-SE-V32YHALQ-BLFYEM34.js"
+    },
+    "ta-IN-5JRAGQAO-EBMZRZSG": {
+      "file": "ta-IN-5JRAGQAO-EBMZRZSG.js"
+    },
+    "th-TH-55ACRHDJ-FURXVU2X": {
+      "file": "th-TH-55ACRHDJ-FURXVU2X.js"
+    },
+    "tr-TR-7QYBXDBO-QM4LNBNM": {
+      "file": "tr-TR-7QYBXDBO-QM4LNBNM.js"
+    },
+    "uk-UA-TJS2TMRH-B32VH5DE": {
+      "file": "uk-UA-TJS2TMRH-B32VH5DE.js"
+    },
+    "oc-FR-ATFBDMF6-O3J6EFI4": {
+      "file": "oc-FR-ATFBDMF6-O3J6EFI4.js"
+    },
+    "pa-IN-D2I375G4-Y3B3TYSY": {
+      "file": "pa-IN-D2I375G4-Y3B3TYSY.js"
+    },
+    "percentages-YKFLWNK2-PLHLHJDO": {
+      "file": "percentages-YKFLWNK2-PLHLHJDO.js"
+    },
+    "pl-PL-YJHOWAAW-7URNHDDR": {
+      "file": "pl-PL-YJHOWAAW-7URNHDDR.js"
+    },
+    "pt-BR-APOPYZJ7-BADKIP4T": {
+      "file": "pt-BR-APOPYZJ7-BADKIP4T.js"
+    },
+    "pt-PT-W56WCN7P-S56IZDGZ": {
+      "file": "pt-PT-W56WCN7P-S56IZDGZ.js"
+    },
+    "ro-RO-L575VRQA-KC3XMFC3": {
+      "file": "ro-RO-L575VRQA-KC3XMFC3.js"
+    },
+    "ru-RU-BLG6HZG5-WC6FOX7V": {
+      "file": "ru-RU-BLG6HZG5-WC6FOX7V.js"
+    },
+    "ku-TR-5XJDIERL-LTU3VFCK": {
+      "file": "ku-TR-5XJDIERL-LTU3VFCK.js"
+    },
+    "lt-LT-MGUBX6CA-UFSHVTCY": {
+      "file": "lt-LT-MGUBX6CA-UFSHVTCY.js"
+    },
+    "lv-LV-MD7N5VHD-4BI4TRZV": {
+      "file": "lv-LV-MD7N5VHD-4BI4TRZV.js"
+    },
+    "mr-IN-4XWMNGQC-UMJ7XD4M": {
+      "file": "mr-IN-4XWMNGQC-UMJ7XD4M.js"
+    },
+    "my-MM-O4Z74GN5-LACTNVYH": {
+      "file": "my-MM-O4Z74GN5-LACTNVYH.js"
+    },
+    "nb-NO-BMB73KRH-PWRYUMTB": {
+      "file": "nb-NO-BMB73KRH-PWRYUMTB.js"
+    },
+    "nl-NL-F2257BLQ-XQFLEWSW": {
+      "file": "nl-NL-F2257BLQ-XQFLEWSW.js"
+    },
+    "nn-NO-NCORG7TS-LUAVTENU": {
+      "file": "nn-NO-NCORG7TS-LUAVTENU.js"
+    },
+    "id-ID-22TWZNLA-ASEGGXF5": {
+      "file": "id-ID-22TWZNLA-ASEGGXF5.js"
+    },
+    "it-IT-MDEQ2SG3-GYZ6FWQO": {
+      "file": "it-IT-MDEQ2SG3-GYZ6FWQO.js"
+    },
+    "ja-JP-K2DI4W6B-VCTJMR3T": {
+      "file": "ja-JP-K2DI4W6B-VCTJMR3T.js"
+    },
+    "kaa-6BPSNM3R-PHRDEL3L": {
+      "file": "kaa-6BPSNM3R-PHRDEL3L.js"
+    },
+    "kab-KAB-2S7ZURK7-WTSPI7BZ": {
+      "file": "kab-KAB-2S7ZURK7-WTSPI7BZ.js"
+    },
+    "kk-KZ-UJPYGRQQ-XKZRB4RL": {
+      "file": "kk-KZ-UJPYGRQQ-XKZRB4RL.js"
+    },
+    "km-KH-M5T5JKUE-JAT4AZUI": {
+      "file": "km-KH-M5T5JKUE-JAT4AZUI.js"
+    },
+    "ko-KR-RQX37SNF-QDEP4HM3": {
+      "file": "ko-KR-RQX37SNF-QDEP4HM3.js"
+    },
+    "eu-ES-3TOEU5DE-JAKE2XLI": {
+      "file": "eu-ES-3TOEU5DE-JAKE2XLI.js"
+    },
+    "fa-IR-527GAKUP-BZBPUWN5": {
+      "file": "fa-IR-527GAKUP-BZBPUWN5.js"
+    },
+    "fi-FI-M3WLVDFP-UOCNDVHT": {
+      "file": "fi-FI-M3WLVDFP-UOCNDVHT.js"
+    },
+    "fr-FR-YE4VDJFI-V5ULA3HF": {
+      "file": "fr-FR-YE4VDJFI-V5ULA3HF.js"
+    },
+    "gl-ES-KMXUYGUN-4GMZBW46": {
+      "file": "gl-ES-KMXUYGUN-4GMZBW46.js"
+    },
+    "he-IL-4MU5N22B-FNLI4MZL": {
+      "file": "he-IL-4MU5N22B-FNLI4MZL.js"
+    },
+    "hi-IN-ZHZNZWFC-7U4726KX": {
+      "file": "hi-IN-ZHZNZWFC-7U4726KX.js"
+    },
+    "hu-HU-VIYZI3X4-D3FMEQVR": {
+      "file": "hu-HU-VIYZI3X4-D3FMEQVR.js"
+    },
+    "bn-BD-PM4AC5WG-EAKCBYH4": {
+      "file": "bn-BD-PM4AC5WG-EAKCBYH4.js"
+    },
+    "ca-ES-YNNMFRQX-L4XFXMX2": {
+      "file": "ca-ES-YNNMFRQX-L4XFXMX2.js"
+    },
+    "cs-CZ-DGZA5IKG-7SLH3NQK": {
+      "file": "cs-CZ-DGZA5IKG-7SLH3NQK.js"
+    },
+    "da-DK-N76F4QAJ-DMJKFDHG": {
+      "file": "da-DK-N76F4QAJ-DMJKFDHG.js"
+    },
+    "de-DE-DMRXZ2SZ-VG2OQ4R6": {
+      "file": "de-DE-DMRXZ2SZ-VG2OQ4R6.js"
+    },
+    "el-GR-HIKPLEXI-WYGB2DMC": {
+      "file": "el-GR-HIKPLEXI-WYGB2DMC.js"
+    },
+    "en-OZCJJ2HN-Z4PF4ANG": {
+      "file": "en-OZCJJ2HN-Z4PF4ANG.js"
+    },
+    "es-ES-AQYVXC32-FYYM7KDF": {
+      "file": "es-ES-AQYVXC32-FYYM7KDF.js"
+    },
+    "subset-worker.chunk-FH4DI6KU": {
+      "file": "subset-worker__chunk-FH4DI6KU.js"
+    },
+    "subset-shared.chunk-F6QR6HUT": {
+      "file": "subset-shared__chunk-F6QR6HUT.js"
+    },
+    "chunk-VEZPHWC4": {
+      "file": "chunk-VEZPHWC4.js"
+    },
+    "image-WB3WPX2D-JXKNFA4U": {
+      "file": "image-WB3WPX2D-JXKNFA4U.js"
+    },
+    "pica-NZZHKCUV": {
+      "file": "pica-NZZHKCUV.js"
+    },
+    "image-blob-reduce.esm-PDIFKLSI": {
+      "file": "image-blob-reduce__esm-PDIFKLSI.js"
+    },
+    "ar-SA-XORAP2EK-ASS2SH2V": {
+      "file": "ar-SA-XORAP2EK-ASS2SH2V.js"
+    },
+    "az-AZ-NAUU3Z4Y-5AJBV6WO": {
+      "file": "az-AZ-NAUU3Z4Y-5AJBV6WO.js"
+    },
+    "bg-BG-AAABLFCY-M5XBXAC4": {
+      "file": "bg-BG-AAABLFCY-M5XBXAC4.js"
+    },
+    "file-open-002ab408-RNZXZ4TI": {
+      "file": "file-open-002ab408-RNZXZ4TI.js"
+    },
+    "file-open-7c801643-6DHWCTZY": {
+      "file": "file-open-7c801643-6DHWCTZY.js"
+    },
+    "directory-open-4ed118d0-TAMFP5OU": {
+      "file": "directory-open-4ed118d0-TAMFP5OU.js"
+    },
+    "directory-open-01563666-KYJTUSN6": {
+      "file": "directory-open-01563666-KYJTUSN6.js"
+    },
+    "file-save-745eba88-DZWYR3IF": {
+      "file": "file-save-745eba88-DZWYR3IF.js"
+    },
+    "file-save-3189631c-LZCQBLSK": {
+      "file": "file-save-3189631c-LZCQBLSK.js"
+    },
+    "chunk-B5JKDRCR": {
+      "file": "chunk-B5JKDRCR.js"
+    },
+    "chunk-L4A2EQAB": {
+      "file": "chunk-L4A2EQAB.js"
+    },
+    "chunk-M5YFA5VQ": {
+      "file": "chunk-M5YFA5VQ.js"
+    },
+    "chunk-5FKOH4H2": {
+      "file": "chunk-5FKOH4H2.js"
+    },
+    "chunk-KD7LNW25": {
+      "file": "chunk-KD7LNW25.js"
+    },
+    "chunk-FYGU5GYI": {
+      "file": "chunk-FYGU5GYI.js"
+    },
+    "chunk-67LCIC6L": {
+      "file": "chunk-67LCIC6L.js"
+    },
+    "chunk-3GYA4YLH": {
+      "file": "chunk-3GYA4YLH.js"
+    },
+    "chunk-DDXJJ377": {
+      "file": "chunk-DDXJJ377.js"
+    },
+    "chunk-PR4QN5HX": {
+      "file": "chunk-PR4QN5HX.js"
+    }
+  }
+}

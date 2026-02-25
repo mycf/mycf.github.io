@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.Bw-5EFTY.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"netty/linux/awk.md","filePath":"netty/linux/awk.md"}'),n={name:"netty/linux/awk.md"};function r(o,s,c,i,p,_){return a(),e("div")}const m=t(n,[["render",r]]);export{l as __pageData,m as default};

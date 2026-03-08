@@ -10,6 +10,7 @@ import { ref, onMounted } from "vue";
 import MarkdownIt from 'markdown-it';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcExclude: ['**/*.excalidraw.md', '**/README.md'],
 
   vite: {
     resolve: {

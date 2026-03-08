@@ -1,6 +1,3 @@
-![image.png](https://gitee.com/ycfan/images/raw/master/img/20231218150541.png)
-
-
 1、当启动springboot应用程序的时候，会先创建SpringApplication的对象，在对象的构造方法中会进行某些参数的初始化工作，最主要的是判断当前应用程序的类型以及初始化器和监听器，在这个过程中会加载整个应用程序中的spring.factories文件，将文件的内容放到缓存对象中，方便后续获取
 
 2、SpringApplication对象创建完成之后，开始执行run方法，来完成整个启动，启动过程中最主要的有两个方法，第一个叫做prepareContext，第二个叫做refreshcontext,在这两个关键步骤中完整了自动装配的核心功能，前面的处理逻辑包含了上下文对象的创建，banner的打印，异常报告器的准备等各个准备工作，方便后续来进行调用。
